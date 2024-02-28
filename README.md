@@ -17,7 +17,7 @@ To run this application, follow these steps:
    - Run `npm install` to install all the required dependencies.
 
 3. **Setup SQL Database**
-   - Set up your SQL database using PostgreSQL (version 15) and PgAdmin 4.
+   - Set up your SQL database ( I'm using PostgreSQL (version 15) and PgAdmin 4 ) .
    - Execute the following SQL queries to create the required database table and insert sample data:
 
 ```sql
