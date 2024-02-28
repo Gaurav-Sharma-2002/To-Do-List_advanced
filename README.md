@@ -27,3 +27,16 @@ CREATE TABLE items (
 );
 
 INSERT INTO items (title) VALUES ('Buy milk'), ('Finish homework');
+
+4. **Replace Database Credentials**
+    - Open the index.js file.
+    - Replace the following database connection credentials with your own :
+```javascript
+   user: process.env.PG_USER,
+   host: process.env.PG_HOST,
+   database: process.env.PG_DATABASE,
+   password: process.env.PG_PASSWORD,
+   port: process.env.PG_PORT,
+
+5. **Run the Application**
+   - In the terminal, run node index.js to start the application.
